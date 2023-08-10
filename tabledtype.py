@@ -1,4 +1,6 @@
 def table_dtype(dataframe,rtn=True):
+  # Color palette for Plotly
+  palette = ["#FC645F", "#A8E4A0", "#7088FF", "#FEB1AF"]
   # Función que crea reporte de tipo de variables y datos
   # dataframe = objet.dataframe
   # arg = True: use fig.show() otherwise it returns fig for object
