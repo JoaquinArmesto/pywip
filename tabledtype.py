@@ -1,9 +1,10 @@
-import pandas as pd
-import plotly.graph_objects as go
-import plotly.express as px
-from plotly.subplots import make_subplots
 
 def table_dtype(dataframe,rtn=True):
+  import pandas as pd
+  import plotly.graph_objects as go
+  import plotly.express as px
+  from plotly.subplots import make_subplots
+
   # Color palette for Plotly
   palette = ["#FC645F", "#A8E4A0", "#7088FF", "#FEB1AF"]
   # Función que crea reporte de tipo de variables y datos
