@@ -2,9 +2,10 @@ import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
 
-palette = ["#FC645F", "#A8E4A0", "#7088FF", "#FEB1AF"]
+
 
 def dat_insights(dataframe,sheet_name=False,rtn=True,dat=False,date_parse=False):
+  palette = ["#FC645F", "#A8E4A0", "#7088FF", "#FEB1AF"]
   if type(dataframe) == str:
     dataframe = data_capture(dataframe,sheet_name,date_parse).capture()
   if dat is not False:
